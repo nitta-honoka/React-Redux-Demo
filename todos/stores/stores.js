@@ -5,13 +5,5 @@
 import { createStore } from 'redux';
 import todoApp from '../reducers/reducers';
 
-export default function configureStore(initialState) {
-    const create = window.devToolsExtension
-        ? window.devToolsExtension()(createStore)
-        : createStore;
-
-    let store = createStore(todoApp);
-
-    return store;
-}
-
+let store = createStore(todoApp);
+export default store;

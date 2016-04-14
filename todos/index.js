@@ -7,9 +7,9 @@ import { render } from 'react-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import App from './components/App';
-import todoApp from './reducers/reducers';
+import store from './stores/stores';
 
-let store = createStore(todoApp);
+//let store = createStore(todoApp);
 let rootElement = document.getElementById('root');
 render(
     <Provider store={store}>

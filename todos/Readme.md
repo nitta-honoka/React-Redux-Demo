@@ -1,7 +1,7 @@
 
 # Todo Demo
 
-一个运用 React 配合 Redux 开发的 Todo Demo
+参考自官方文档,一个运用 React 配合 Redux 开发的 Todo Demo
 
 ## 包括
 

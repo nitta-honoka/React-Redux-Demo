@@ -1,14 +1,13 @@
-"use strict";
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import {addTodo, completeTodo, setVisibilityFilter, VisibilityFilters} from '../actions/actions';
+import { addTodo, completeTodo, setVisibilityFilter, VisibilityFilters } from '../actions/actions';
 import AddTodo from './AddTodo';
 import TodoList from './TodoList';
 import Footer from './Footer';
 
 class App extends Component {
     render() {
-        const {dispatch, visibleTodos, visibilityFilter} = this.props;
+        const { dispatch, visibleTodos, visibilityFilter } = this.props;
         return (
             <div>
                 <AddTodo

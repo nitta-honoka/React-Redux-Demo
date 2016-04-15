@@ -1,9 +1,9 @@
 /**
  * Created by honoka on 16/4/12.
  */
-"use strict";
-import React, { findDOMNode, Component, PropTypes } from 'react';
-var ReactDom = require('react-dom');
+
+import React, { Component, PropTypes } from 'react';
+const ReactDom = require('react-dom');
 
 export default class AddTodo extends Component {
     render() {
